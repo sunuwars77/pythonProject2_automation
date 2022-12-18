@@ -5,6 +5,10 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
+from webdriver_manager.firefox import GeckoDriverManager
+from webdriver_manager.microsoft import EdgeChromiumDriverManager
+
+import excel_operation
 
 
 def read_excel():
@@ -30,7 +34,7 @@ def action_defination(sn, test_summary, xpath, action, value):
     elif action == 'input_text':
         result, remarks = input_text(xpath, value)
     elif action == 'new_tab':
-        result,remarks = new_tab(xpath, value)
+        result, remarks = new_tab(xpath, value)
     elif action == 'select_dropdown':
         result, remarks = select_dropdown(xpath, value)
     elif action == 'close_browser':
@@ -41,6 +45,7 @@ def action_defination(sn, test_summary, xpath, action, value):
         result = "FAIL"
         remarks = (action, "Not Supported")
     print(sn, test_summary, result, remarks)
+    excel_operation.write_result(sn, test_summary, result, remarks)
 
 
 def wait(value):
@@ -58,7 +63,9 @@ def new_tab(xpath, value):
     try:
         driver.execute_script("window.open('');")
         driver.switch_to.window(driver.window_handles[1])
-        driver.get("https://google.com")
+        driver.get(value)
+        driver.switch_to.window(driver.window_handles[0])
+        time.sleep(5)
         result = "PASS"
         remarks = ""
     except Exception as ex:
@@ -77,8 +84,12 @@ def open_browser(value):
             result = "PASS"
             remarks = ""
         elif value == 'firefox':
-            print("Firefox code here")
+            driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
             result = "PASS"
+            remarks = ""
+        elif value == 'edge':
+            driver = webdriver.Edge(EdgeChromiumDriverManager().install())
+            result = "pass"
             remarks = ""
         else:
             result = "FAIL"
@@ -129,7 +140,7 @@ def compare_text(xpath, value):
             assert actual_text == value
         except AssertionError:
             result = "FAIL"
-            remarks = ("Actual value is",actual_text,"Expected value is",value)
+            remarks = ("Actual value is", actual_text, "Expected value is", value)
         else:
             result = "PASS"
             remarks = ""
@@ -163,4 +174,5 @@ def close_browser():
 
 
 if __name__ == "__main__":
+    excel_operation.write_header()
     read_excel()
