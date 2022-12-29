@@ -1,0 +1,224 @@
+1670993174124	geckodriver	INFO	Listening on 127.0.0.1:65269
+1670993177206	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65270" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERE57C~1.SON\\AppData\\Local\\Temp\\rust_mozprofilelDXstS"
+1670993177811	Marionette	INFO	Marionette enabled
+1670993177821	Marionette	INFO	Listening on port 65281
+Read port: 65281
+WebDriver BiDi listening on ws://127.0.0.1:65270
+1670993178055	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERE57C~1.SON\\AppData\\Local\\Temp\\rust_mozprofilelDXstS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65270/devtools/browser/2880495d-15df-4f1d-9bd9-7cad1c7a6fcb
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://saayog.com."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource:///actors/LightweightThemeChild.jsm, line 38: TypeError: this.browsingContext.topChromeWindow is null
+JavaScript error: resource:///actors/LightweightThemeChild.jsm, line 38: TypeError: this.browsingContext.topChromeWindow is null
+JavaScript error: resource:///actors/LightweightThemeChild.jsm, line 38: TypeError: this.browsingContext.topChromeWindow is null
+1670994551161	Marionette	INFO	Stopped listening on port 65281
+.1:65434
+1670993381740	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERE57C~1.SON\\AppData\\Local\\Temp\\rust_mozprofileKG5Hp1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65434/devtools/browser/95a5a03d-8ca5-4652-ae6e-a8bc5f183a26
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://saayog.com."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1670994753213	Marionette	INFO	Stopped listening on port 65444
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671000024193	geckodriver	INFO	Listening on 127.0.0.1:50319
+1671000027345	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50320" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERE57C~1.SON\\AppData\\Local\\Temp\\rust_mozprofileIN8J6B"
+1671000028002	Marionette	INFO	Marionette enabled
+1671000028013	Marionette	INFO	Listening on port 50331
+Read port: 50331
+WebDriver BiDi listening on ws://127.0.0.1:50320
+1671000028280	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERE57C~1.SON\\AppData\\Local\\Temp\\rust_mozprofileIN8J6B\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50320/devtools/browser/7e583a9f-2eeb-4851-8079-b8861998ec9a
+JavaScript error: https://www.deerwalk.com/, line 32: ReferenceError: gtag is not defined
+JavaScript error: https://www.deerwalk.com/contact, line 32: ReferenceError: gtag is not defined
+1671000048495	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript error: https://merolagani.com/, line 1: SyntaxError: expected expression, got '<'
+1671000052912	Marionette	INFO	Stopped listening on port 50331
+1671102047403	geckodriver	INFO	Listening on 127.0.0.1:59311
+1671102050506	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59312" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERE57C~1.SON\\AppData\\Local\\Temp\\rust_mozprofileYNCk18"
+1671102051212	Marionette	INFO	Marionette enabled
+1671102051224	Marionette	INFO	Listening on port 59322
+Read port: 59322
+WebDriver BiDi listening on ws://127.0.0.1:59312
+1671102051448	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERE57C~1.SON\\AppData\\Local\\Temp\\rust_mozprofileYNCk18\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59312/devtools/browser/5259c647-be1a-41fb-a52d-8096ffd6fafe
+JavaScript error: https://www.deerwalk.com/, line 32: ReferenceError: gtag is not defined
+JavaScript error: https://www.deerwalk.com/contact, line 32: ReferenceError: gtag is not defined
+1671102100609	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript error: https://merolagani.com/, line 1: SyntaxError: expected expression, got '<'
+1671102159382	Marionette	INFO	Stopped listening on port 59322
+1671102623946	geckodriver	INFO	Listening on 127.0.0.1:59797
+1671102627008	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59798" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERE57C~1.SON\\AppData\\Local\\Temp\\rust_mozprofilefAeqFc"
+1671102627569	Marionette	INFO	Marionette enabled
+1671102627581	Marionette	INFO	Listening on port 59809
+Read port: 59809
+WebDriver BiDi listening on ws://127.0.0.1:59798
+1671102627799	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERE57C~1.SON\\AppData\\Local\\Temp\\rust_mozprofilefAeqFc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59798/devtools/browser/84120ec4-d200-433b-a16a-e5293846400a
+JavaScript error: https://www.deerwalk.com/, line 32: ReferenceError: gtag is not defined
+JavaScript error: https://www.deerwalk.com/, line 411: TypeError: $(...).tooltip is not a function
+JavaScript error: https://www.deerwalk.com/contact, line 32: ReferenceError: gtag is not defined
+1671102668593	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1671102671860	Marionette	INFO	Stopped listening on port 59809
+JavaScript error: https://merolagani.com/, line 1: SyntaxError: expected expression, got '<'
+1671102738300	geckodriver	INFO	Listening on 127.0.0.1:60034
+1671102741392	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60035" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERE57C~1.SON\\AppData\\Local\\Temp\\rust_mozprofilesGK1Vc"
+1671102742075	Marionette	INFO	Marionette enabled
+1671102742086	Marionette	INFO	Listening on port 60045
+Read port: 60045
+WebDriver BiDi listening on ws://127.0.0.1:60035
+1671102742316	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERE57C~1.SON\\AppData\\Local\\Temp\\rust_mozprofilesGK1Vc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60035/devtools/browser/0768ea34-d84b-4373-95df-68dff2298972
+JavaScript error: https://www.deerwalk.com/, line 32: ReferenceError: gtag is not defined
+JavaScript error: https://www.deerwalk.com/, line 411: TypeError: $(...).tooltip is not a function
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+JavaScript error: https://www.deerwalk.com/contact, line 32: ReferenceError: gtag is not defined
+1671102834800	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript error: https://merolagani.com/, line 1: SyntaxError: expected expression, got '<'
+1671102839127	Marionette	INFO	Stopped listening on port 60045
+1671102875758	geckodriver	INFO	Listening on 127.0.0.1:60269
+1671102878836	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60270" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERE57C~1.SON\\AppData\\Local\\Temp\\rust_mozprofilefCyRY8"
+1671102879449	Marionette	INFO	Marionette enabled
+1671102879458	Marionette	INFO	Listening on port 60280
+Read port: 60280
+WebDriver BiDi listening on ws://127.0.0.1:60270
+1671102879676	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERE57C~1.SON\\AppData\\Local\\Temp\\rust_mozprofilefCyRY8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60270/devtools/browser/48fe9d45-584a-4da3-b8f9-672db9fc0f85
+JavaScript error: https://www.deerwalk.com/, line 32: ReferenceError: gtag is not defined
+JavaScript error: https://www.deerwalk.com/contact, line 32: ReferenceError: gtag is not defined
+1671102902900	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript error: https://merolagani.com/, line 1: SyntaxError: expected expression, got '<'
+1671102912930	Marionette	INFO	Stopped listening on port 60280
+!!! error running onStopped callback: TypeError: callback is not a function
+1671351532290	geckodriver	INFO	Listening on 127.0.0.1:54343
+1671351535383	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54344" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERE57C~1.SON\\AppData\\Local\\Temp\\rust_mozprofileaPyOFj"
+1671351535965	Marionette	INFO	Marionette enabled
+1671351535975	Marionette	INFO	Listening on port 54354
+Read port: 54354
+WebDriver BiDi listening on ws://127.0.0.1:54344
+1671351536200	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERE57C~1.SON\\AppData\\Local\\Temp\\rust_mozprofileaPyOFj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54344/devtools/browser/5d27ee91-9c7e-4ca1-b5e9-974b6c9b915a
+JavaScript error: https://www.deerwalk.com/, line 32: ReferenceError: gtag is not defined
+JavaScript error: https://www.deerwalk.com/contact, line 32: ReferenceError: gtag is not defined
+1671351556076	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript error: https://merolagani.com/, line 1: SyntaxError: expected expression, got '<'
+1671351565384	Marionette	INFO	Stopped listening on port 54354
+!!! error running onStopped callback: TypeError: callback is not a function
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
