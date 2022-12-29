@@ -7,8 +7,15 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from webdriver_manager.firefox import GeckoDriverManager
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
+from datetime import datetime
 
+import email_file
 import excel_operation
+
+passed_test = 0
+failed_test = 0
+total_test = 0
+skipped_test = 0
 
 
 def read_excel():
@@ -23,9 +30,12 @@ def read_excel():
 
 
 def action_defination(sn, test_summary, xpath, action, value):
+    global url, passed_test, failed_test, total_test, skipped_test
+    test_started = datetime.now()
     if action == 'open_browser':
         result, remarks = open_browser(value)
     elif action == 'open_url':
+        url = value
         result, remarks = open_url(value)
     elif action == 'click':
         result, remarks = click(xpath)
@@ -45,7 +55,16 @@ def action_defination(sn, test_summary, xpath, action, value):
         result = "FAIL"
         remarks = (action, "Not Supported")
     print(sn, test_summary, result, remarks)
+    total_test += 1
+    if result == 'PASS':
+        passed_test += 1
+    else:
+        failed_test += 1
     excel_operation.write_result(sn, test_summary, result, remarks)
+    if action == 'close_browser':
+        test_completed = datetime.now()
+        excel_operation.write_result_summary(test_started, test_completed, url, total_test, passed_test, failed_test,
+                                             skipped_test)
 
 
 def wait(value):
@@ -105,6 +124,7 @@ def open_url(value):
         driver.get(value)
         result = "PASS"
         remarks = ""
+        url = value
     except Exception as ex:
         result = "FAIL"
         remarks = ex
@@ -175,4 +195,6 @@ def close_browser():
 
 if __name__ == "__main__":
     excel_operation.write_header()
+    excel_operation.write_header_summary()
     read_excel()
+    #email_file.send_selenium_report()
